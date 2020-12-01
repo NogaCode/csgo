@@ -1,5 +1,6 @@
 //CFG ZNORUX - HTTP://WWW.YOUTUBE.COM/ZNORUX
 unbindall
+bind "v" "+voicerecord"
 bind "0" "slot10"
 bind "1" "slot1"
 bind "2" "slot2"
@@ -16,12 +17,8 @@ bind "c" "radio3"
 bind "d" "+moveright"
 bind "e" "+use"
 bind "f" "+lookatweapon"
-bind "ñ" "drop"
-bind "i" "say SUPERMANINJA IS COMING!!"
-bind "v" "+voicerecord"
-bind "l" "say I AM NINJA AND YOU ?"
+bind "k" "drop"
 bind "m" "teammenu"
-bind "p" "say_team NEED BACKUP C4 HERE!; needbackup"
 bind "r" "+reload"
 bind "s" "+back"
 bind "u" "messagemode2"
@@ -138,7 +135,7 @@ cl_righthand "1"
 cl_rumblescale "1.0"
 cl_scalecrosshair "1"
 cl_showbackpackrarities "0"
-cl_showhelp "1"
+cl_showhelp "0"
 cl_showloadout "1"
 cl_showpluginmessages "1"
 cl_soundfile ""
@@ -562,3 +559,7 @@ r_eyeshift_z "0"
 r_eyesize "0"
 snd_mixahead "0.05"
 host_writeconfig
+
+
+
+bind "v" "+voicerecord"
